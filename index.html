@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div><i class="fas fa-home fa-fw" style="background:MistyRose"></i></div>
+    <div class="app-main">
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off" required>
+        </div>
+
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city">Dhanbad, IN</div>
+                
+                <div class="date" id="date">10 June (Wednesday), 2020</div>
+            </div>
+
+            <div class="weather-status">
+                <div class="temp" id="temp">34&deg;C</div>
+                <img id="te-icon" src="https://cdn-icons-png.flaticon.com/128/3222/3222808.png" alt="temp-icon" class="t-icon">
+              
+                <div class="min-max" id="min-max">32&deg;C (min) / 34&deg;C (max)</div>
+                <div class="weather" id="weather">Clear</div>
+                <div id="img"></div>
+            </div>
+            </div>
+        </div>
+      
+        
+        
+    </div>
+
+
+   <div class="container">
+
+    <div class="others" id="current-weather-items">
+      <div class="weather-item">
+        <div class="w-humid">
+            
+         <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/2x/external-humidity-plants-flaticons-flat-flat-icons-2.png" alt="humid" class="humid">
+         <div>Humidity</div>
+         <div>95.2%</div>
+        </div>
+      </div>
+     
+      <div class="weather-item">
+        <div class="pressure">
+        <img src="https://cdn-icons-png.flaticon.com/128/1808/1808263.png" alt="pressure" class="press_ure">
+        <div>Pressure</div>
+        <div>121</div>
+    </div>
+     </div>
+
+    
+     <div class="weather-item">
+        <div class="wind-speed">
+            <img src="https://cdn-icons-png.flaticon.com/128/5532/5532989.png" alt="w-speed" class="w-speed">
+        <div>Wind Speed</div>
+        <div>222</div>
+    </div>
+     </div>
+
+     <div class="weather-item">
+        <div class="sunrise">
+            <img src="https://cdn-icons-png.flaticon.com/128/3222/3222792.png" alt="s-rise" class="s-rise">
+      <div>Sunrise</div>
+      <div>222</div>
+    </div>
+     </div>
+
+   <div class="weather-item">
+    <div class="sunset">
+        <img src="https://cdn-icons-png.flaticon.com/128/3222/3222795.png" alt="s-set" class="s-set">
+    <div>Sunset</div>
+    <div>222</div>
+  </div>
+   </div>
+</div>
+ </div>
+
+ <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script> -->
+ 
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- http://openweathermap.org/img/wn/10d@2x.png -->
